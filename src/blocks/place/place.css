@@ -1,0 +1,9 @@
+.place:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 500px) {
+  .place:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
