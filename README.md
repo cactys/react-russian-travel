@@ -1,4 +1,4 @@
-## [рефакторинг проекта "Путешествия по России"](https://github.com/cactys/react-russian-travel)
+## Рефакторинг проекта ["Путешествия по России"](https://github.com/cactys/react-russian-travel)
 
 ### :page_facing_up: **В планах:**
   + [ ] интерактивная карта  
