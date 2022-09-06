@@ -1,5 +1,3 @@
-import React from 'react';
-
 const AddImageForm = () => {
   return (
     <fieldset className='form__set'>
@@ -14,7 +12,7 @@ const AddImageForm = () => {
           multiple
           required
         />
-        <label className='form__input-btn' for='add-file'>
+        <label className='form__input-btn' htmlFor='add-file'>
           <svg
             className='form__input-icon'
             xmlns='http://www.w3.org/2000/svg'

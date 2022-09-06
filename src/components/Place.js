@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Place({ place, onImageClick }) {
   const paragraphs = place.paragraphs;
 

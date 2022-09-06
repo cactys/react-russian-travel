@@ -1,4 +1,3 @@
-import React from 'react';
 import lead from '../images/lead-polka.jpg';
 import Grid from './Grid';
 import Place from './Place';
@@ -60,9 +59,9 @@ function Main({ onImageClick }) {
       </div>
       <AddImageForm />
       <div className='photo-grid'>
-        {images.map((image) => (
-          <Grid key={image.id} image={image} onImageClick={onImageClick} />
-        ))}
+        {images.map((image) => {
+          return <Grid key={image.id} image={image} onImageClick={onImageClick} />;
+        })}
       </div>
       <div className='places'>
         {places.map((place) => {

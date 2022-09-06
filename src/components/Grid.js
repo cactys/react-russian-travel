@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Grid({ image, onImageClick }) {
   const handleClick = () => {
     onImageClick(image);
