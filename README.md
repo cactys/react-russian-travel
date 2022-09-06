@@ -1,3 +1,4 @@
+*[Ссылка на DEMO проекта](https://cactys.github.io/react-russian-travel/)*
 ## Рефакторинг проекта ["Путешествия по России"](https://github.com/cactys/russian-travel)
 
 ### :page_facing_up: **В планах:**
