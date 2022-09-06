@@ -4,6 +4,7 @@ import Grid from './Grid';
 import Place from './Place';
 import Cover from './Cover';
 import { images } from '../utils/constants';
+import { places } from '../utils/places';
 import AddImageForm from './AddImageForm';
 
 function Main({ onImageClick }) {
@@ -63,7 +64,11 @@ function Main({ onImageClick }) {
           <Grid key={image.id} image={image} onImageClick={onImageClick} />
         ))}
       </div>
-      <Place />
+      <div className='places'>
+        {places.map((place) => {
+          return <Place key={place.id} place={place} onImageClick={onImageClick} />;
+        })}
+      </div>
       <Cover />
     </main>
   );

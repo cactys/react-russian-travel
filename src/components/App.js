@@ -38,7 +38,12 @@ const App = () => {
       <Header />
       <Main onImageClick={handleImageClick} />
       <Footer />
-      <ImagePopup image={selectImage} isOpen={isOpen} onClose={closeAllPopups} />
+      <ImagePopup
+        onImageClick={handleImageClick}
+        image={selectImage}
+        isOpen={isOpen}
+        onClose={closeAllPopups}
+      />
     </div>
   );
 };

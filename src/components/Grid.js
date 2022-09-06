@@ -7,7 +7,7 @@ function Grid({ image, onImageClick }) {
 
   return (
     <img
-      src={image.link}
+      src={image.imageLink}
       alt={image.title}
       className='photo-grid__image'
       onClick={handleClick}
