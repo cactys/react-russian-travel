@@ -3,11 +3,13 @@ import lead from '../images/lead-polka.jpg';
 import Grid from './Grid';
 import Place from './Place';
 import Cover from './Cover';
+import { images } from '../utils/constants';
+import AddImageForm from './AddImageForm';
 
-function Main() {
+function Main({ onImageClick }) {
   return (
     <main className='content'>
-      <section className='lead'>
+      <div className='lead'>
         <h1 className='lead__title'>Путешествия по России</h1>
         <p className='lead__subtitle'>
           Настоящая страна не в выпусках новостей, а здесь.
@@ -16,9 +18,9 @@ function Main() {
           <img src={lead} className='lead__image' alt='Ваша полка — верхняя' />
           <figcaption className='lead__caption'>ваша полка — верхняя</figcaption>
         </figure>
-      </section>
+      </div>
 
-      <section className='intro'>
+      <div className='intro'>
         <h2 className='intro__title'>Чего мы там не видели?</h2>
         <p className='intro__text'>
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
@@ -54,8 +56,13 @@ function Main() {
             <span className='intro__list-bold'>Аэропортов</span> 241
           </li>
         </ul>
-      </section>
-      <Grid />
+      </div>
+      <AddImageForm />
+      <div className='photo-grid'>
+        {images.map((image) => (
+          <Grid key={image.id} image={image} onImageClick={onImageClick} />
+        ))}
+      </div>
       <Place />
       <Cover />
     </main>

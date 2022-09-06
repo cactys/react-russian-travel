@@ -1,0 +1,7 @@
+.form__input-icon {
+  width: 30px;
+  height: auto;
+  margin-right: 11px;
+  transition: .25s ease;
+  fill: #fff;
+}

@@ -1,14 +1,17 @@
 import React from 'react';
-import { images } from '../utils/constants';
 
-function Grid() {
-  console.log(images);
+function Grid({ image, onImageClick }) {
+  const handleClick = () => {
+    onImageClick(image);
+  };
+
   return (
-    <section className='photo-grid'>
-      {images.map((image) => {
-        return <img key={image.id} src={image.link} alt={image.title} className='photo-grid__image' />;
-      })}
-    </section>
+    <img
+      src={image.link}
+      alt={image.title}
+      className='photo-grid__image'
+      onClick={handleClick}
+    />
   );
 }
 
