@@ -1,17 +1,8 @@
 import React from 'react';
 import lead from '../images/lead-polka.jpg';
-import train from '../images/photo-grid-train.jpg';
-import atharvaTulsi from '../images/photo-grid-atharva-tulsi.jpg';
-import tuman from '../images/photo-grid-tuman.jpg';
-import sochi from '../images/photo-grid-sochi.jpg';
-import arisa from '../images/photo-grid-arisa.jpg';
-import baikalFirst from '../images/photo-grid-baikal.jpg';
-import baikalSecond from '../images/photo-grid-baikal-2.jpg';
-import elbrus from '../images/photo-grid-elbrus.jpg';
-import kondratiev from '../images/photo-grid-kondratiev.jpg';
-import kamchatkaFirst from '../images/photo-grid-kamchatka-1.jpg';
-import kamchatkaSecond from '../images/photo-grid-kamchatka-2.jpg';
-import ergaki from '../images/photo-grid-ergaki.jpg';
+import Grid from './Grid';
+import Place from './Place';
+import Cover from './Cover';
 
 function Main() {
   return (
@@ -64,21 +55,9 @@ function Main() {
           </li>
         </ul>
       </section>
-
-      <section className='photo-grid'>
-        <img src={train} alt='Поезд' className='photo-grid__image' />
-        <img src={atharvaTulsi} alt='Атхарва Тулси' className='photo-grid__image' />
-        <img src={tuman} alt='Туман' className='photo-grid__image' />
-        <img src={sochi} alt='Сочи' className='photo-grid__image' />
-        <img src={arisa} alt='Ариса' className='photo-grid__image' />
-        <img src={baikalFirst} alt='Байкал' className='photo-grid__image' />
-        <img src={elbrus} alt='Эльюрус' className='photo-grid__image' />
-        <img src={kondratiev} alt='Кондратьево' className='photo-grid__image' />
-        <img src={kamchatkaFirst} alt='Камчатка' className='photo-grid__image' />
-        <img src={kamchatkaSecond} alt='Камчатка' className='photo-grid__image' />
-        <img src={baikalSecond} alt='Байкал' className='photo-grid__image' />
-        <img src={ergaki} alt='Ергаки' className='photo-grid__image' />
-      </section>
+      <Grid />
+      <Place />
+      <Cover />
     </main>
   );
 }
