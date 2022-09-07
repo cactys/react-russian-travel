@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-russian-travel/static/css/main.92bab55b.css",
-    "main.js": "/react-russian-travel/static/js/main.8846d21e.js",
+    "main.css": "/react-russian-travel/static/css/main.6c2e5983.css",
+    "main.js": "/react-russian-travel/static/js/main.7798eb02.js",
     "static/js/787.85e56436.chunk.js": "/react-russian-travel/static/js/787.85e56436.chunk.js",
     "static/media/Inter-Bold.woff": "/react-russian-travel/static/media/Inter-Bold.2aa577b251f3bd95109a.woff",
     "static/media/Inter-Black.woff": "/react-russian-travel/static/media/Inter-Black.fd37f7e052bea1018058.woff",
@@ -32,12 +32,12 @@
     "index.html": "/react-russian-travel/index.html",
     "static/media/close-button.svg": "/react-russian-travel/static/media/close-button.973e77374abfb705de40.svg",
     "static/media/plus.svg": "/react-russian-travel/static/media/plus.bed8c136e13907f5eefb.svg",
-    "main.92bab55b.css.map": "/react-russian-travel/static/css/main.92bab55b.css.map",
-    "main.8846d21e.js.map": "/react-russian-travel/static/js/main.8846d21e.js.map",
+    "main.6c2e5983.css.map": "/react-russian-travel/static/css/main.6c2e5983.css.map",
+    "main.7798eb02.js.map": "/react-russian-travel/static/js/main.7798eb02.js.map",
     "787.85e56436.chunk.js.map": "/react-russian-travel/static/js/787.85e56436.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92bab55b.css",
-    "static/js/main.8846d21e.js"
+    "static/css/main.6c2e5983.css",
+    "static/js/main.7798eb02.js"
   ]
 }
