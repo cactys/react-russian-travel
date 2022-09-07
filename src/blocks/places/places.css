@@ -2,8 +2,8 @@
   max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: 0px auto;
-  padding: 92px 0px calc(92px / 2);
+  margin: 0 auto;
+  padding: 0 0 calc(92px / 2);
 }
 
 @media screen and (max-width: 1024px) {
