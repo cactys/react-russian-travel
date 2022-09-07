@@ -1,3 +1,7 @@
+# Путешествия по России
+
+<kbd> <img width="768" height="auto" align="center" src="./DEMO.gif" alt="DEMO"> </kbd>
+
 *[Ссылка на DEMO проекта](https://cactys.github.io/react-russian-travel/)*
 ## Рефакторинг проекта ["Путешествия по России"](https://github.com/cactys/russian-travel)
 
