@@ -1,3 +1,11 @@
+.place:first-child {
+  border-top: 1px dotted rgba(255, 255, 255, 0.1);
+}
+
+.place:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, .3);
+}
+
 .place:not(:last-child) {
   margin-bottom: 80px;
 }
