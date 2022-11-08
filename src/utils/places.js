@@ -1,16 +1,10 @@
-import kosa from '../images/place-kosa.jpg';
-import kolsky from '../images/place-kolsky.jpg';
-import altai from '../images/place-altai.jpg';
-import winterBaikal from '../images/place-winter-baikal.jpg';
-import karelia from '../images/place-karelia.jpg';
-
 export const places = [
   {
     id: 0,
     title: 'Куршская коса',
     link: 'http://park-kosa.ru',
     nameLink: 'park-kosa.ru',
-    imageLink: kosa,
+    imageLink: require('../images/place-kosa.jpg'),
     paragraphs: [
       {
         id: 0,
@@ -27,7 +21,7 @@ export const places = [
     title: 'Кольский',
     link: 'https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy',
     nameLink: 'National Geographic',
-    imageLink: kolsky,
+    imageLink: require('../images/place-kolsky.jpg'),
     paragraphs: [
       {
         id: 0,
@@ -44,7 +38,7 @@ export const places = [
     title: 'Алтай',
     link: 'https://www.facebook.com/vera.bashmakova/posts/10156011613718822',
     nameLink: 'Facebook',
-    imageLink: altai,
+    imageLink: require('../images/place-altai.jpg'),
     paragraphs: [
       {
         id: 0,
@@ -61,7 +55,7 @@ export const places = [
     title: 'Зимний Байкал',
     link: 'https://vk.com/baikalmile',
     nameLink: 'https://vk.com/baikalmile',
-    imageLink: winterBaikal,
+    imageLink: require('../images/place-winter-baikal.jpg'),
     paragraphs: [
       {
         id: 0,
@@ -78,7 +72,7 @@ export const places = [
     title: 'Карелия',
     link: 'http://vodlozero.ru',
     nameLink: 'http://vodlozero.ru',
-    imageLink: karelia,
+    imageLink: require('../images/place-karelia.jpg'),
     paragraphs: [
       {
         id: 0,
